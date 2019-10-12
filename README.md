@@ -28,15 +28,15 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your team lead
 
-1. Describe the biggest difference between `.forEach` & `.map`.
+1. Describe the biggest difference between `.forEach` & `.map`. `forEach` loops through the array and `map` allows you to transform the data.
 
-2. What is the difference between a function and a method?
+2. What is the difference between a function and a method? 
+   - A function allows you to run code on the global scope. a method is call on an object.
 
-3. What is closure?
+3. What is closure? when a function is executed and the variable name is not declared, it looks outside its scopes to find it and, if there, executed.
 
-4. Describe the four rules of the 'this' keyword.
-
-5. Why do we need super() in an extended class?
+4. Describe the four rules of the 'this' keyword. Window/Implicit/Explicit/New
+5. Why do we need super() in an extended class? It is required to grab the parent constructor.
 
 ## Project Set up
 
@@ -53,7 +53,7 @@ Follow these steps to set up and work on your project:
 
 Follow these steps for completing your project:
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo).
+- [x] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo).
 - [x] Add your team lead as a Reviewer on the Pull-request
 - [x] TL then will count the HW as done by  merging the branch back into master.
 
@@ -74,11 +74,11 @@ This challenge takes a look at callbacks and closures as well as scope.
 
 ## Task 3: Prototypes
 Create constructors, bind methods, and create cuboids in this prototypes challenge.
-* [x] Use the [prototypes.js](challenges/prototypes.js) link to get started. Read the instructions carefully!
+* [ ] Use the [prototypes.js](challenges/prototypes.js) link to get started. Read the instructions carefully!
 
 ## Task 4: Classes
 Once you have completed the prototypes challenge, it's time to convert all your hard work into classes.
-* [ ] Use the [classes.js](challenges/classes.js) link to get started. Read the instructions carefully!
+* [x] Use the [classes.js](challenges/classes.js) link to get started. Read the instructions carefully!
 
 In your solutions, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 
